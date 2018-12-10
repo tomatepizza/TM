@@ -60,7 +60,7 @@ public class VisionnerPokemonFixture {
 
     @Lorsque("^il le lance$")
     public void il_le_lance() throws Exception {
-        // Write code here that turns the phrase above into concrete actions
+        utilisateur.lance_l_episode();
     }
 
 }
